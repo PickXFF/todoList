@@ -1,0 +1,73 @@
+[{
+  "id": "g_xvsr6",
+  "title": "欢迎使用todo",
+  "list": [{
+    "tid": "t_xoBZOx",
+    "content": "# 支持md语法\n#+‘空格’为一级标题\n##+‘空格’为二级标题\n以此类推",
+    "done": false,
+    "isEdit": false,
+    "isDelete": false,
+    "createDate": 1689261375870,
+    "doneDate": 1689338331060
+  }, {
+    "tid": "t_3dP9sg",
+    "content": "支持md语法：无序列表\n-+'空格' 代表一级无序列表\n-+'空格' 代表二级无序列表\n以此类推",
+    "done": false,
+    "isEdit": false,
+    "isDelete": false,
+    "createDate": 1689261428844
+  }, {
+    "tid": "t_LE_8Du",
+    "content": "支持设置类型以及按类型展示",
+    "done": false,
+    "isEdit": false,
+    "isDelete": false,
+    "createDate": 1689261498141,
+    "doneDate": 1689338230541
+  }, {
+    "tid": "t_z5gAaz",
+    "content": "支持排序功能，序号优先级为最高",
+    "done": false,
+    "isEdit": false,
+    "isDelete": false,
+    "createDate": 1689261522466
+  }, {
+    "tid": "t_eiEzpA",
+    "content": "支持桌面宠物功能，删除、完成的状态都会有对应动作",
+    "done": false,
+    "isEdit": false,
+    "isDelete": false,
+    "createDate": 1689261566658,
+    "doneDate": 1689338333669
+  }, {
+    "tid": "t_qijtCL",
+    "content": "支持置顶功能",
+    "done": false,
+    "isEdit": false,
+    "isDelete": false,
+    "createDate": 1689261583996
+  }, {
+    "tid": "t_Va_yqv",
+    "content": "支持跨组移动功能",
+    "done": false,
+    "isEdit": false,
+    "isDelete": false,
+    "createDate": 1689261614748
+  }, {
+    "tid": "t_5jvsdK",
+    "content": "数据均为软删除，可用通过备份数据，修改json文件的isDelete字段，再导入即可恢复数据",
+    "done": false,
+    "isEdit": false,
+    "isDelete": false,
+    "createDate": 1689261659553
+  }, {
+    "tid": "t_5tEy3s",
+    "content": "序号：#数字 标题",
+    "done": false,
+    "isEdit": false,
+    "isDelete": false,
+    "createDate": 1689611054115
+  }],
+  "isDelete": false,
+  "sort": "time"
+}]

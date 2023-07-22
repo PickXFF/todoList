@@ -1,0 +1,27 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "这是一个Angular+Electron构建的待办事项",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --exec electron ./main.js --watch ./ --ext .ts",
+    "package": "electron-packager ./ todo --out ./dist  --overwrite --icon=./assets/todo.ico"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "build": {
+    "appId": "23.7.15",
+    "win": {
+      "target": "squirrel",
+      "icon": "assets/todo.ico"
+    }
+  },
+  "dependencies": {
+    "electron": "^25.3.1",
+    "electron-packager": "^17.1.1",
+    "electron-win-state": "^1.1.22",
+    "electron-winstaller": "^5.1.0"
+  }
+}

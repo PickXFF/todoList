@@ -52,6 +52,9 @@ async function importData() {
     }
     return acc;
   }, []);
+  let mergedListIds = mergedList.map((item) => item.id);
+  let newGroup = importList.filter((item) => !mergedListIds.includes(item.id));
+  mergedList.push(...newGroup);
   writeListFile(JSON.stringify(mergedList));
 }
 
